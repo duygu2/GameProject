@@ -19,8 +19,8 @@ public class Main {
         Campaign campaign1=new Campaign(123,"Summer Campaign",30);
         Campaign campaign2=new Campaign(124,"Spring Campaign",20);
 
-        Player player=new Player(2343,"Duygu","Orhan", LocalDate.of(2001,01,30),"26975604548");
-        Player player1=new Player(2353,"Laila","Matar", LocalDate.of(2001,01,30),"99988504518");
+        Player player=new Player(2343,"Duygu","Orhan", LocalDate.of(2001,01,30),"2600000000");
+        Player player1=new Player(2353,"Laila","Matar", LocalDate.of(2001,01,30),"9900000000");
 
         PlayerManager playerManager = new PlayerManager(new MernisServiceAdapter());
         playerManager.add(game);
